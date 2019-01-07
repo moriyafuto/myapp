@@ -1,0 +1,6 @@
+<%= form_for(@picture) do |f| %>
+  <label>ファイル</label>
+  <%= f.file_field :name %>
+
+  <%= submit_tag '送信' %>
+<% end %>

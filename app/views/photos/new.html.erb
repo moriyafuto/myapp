@@ -1,0 +1,5 @@
+<p>新規作成</p>
+<%= form_for @photo do |f| %>
+  <%= f.file_field :image %>
+  <%= f.submit "送信" %>
+<% end %>
